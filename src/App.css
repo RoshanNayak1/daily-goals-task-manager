@@ -1,0 +1,53 @@
+.App{
+  color: rgb(62, 52, 52);
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+.App {
+  font-family: 'Yuji Syuku', sans-serif;
+}
+
+*{
+  margin: 1px;
+  padding: 2px;
+}
+.tasklist {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px ;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+.tasklist >div{
+  width: 100%;
+
+}
+.tasklist >button{
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+
+}
+.tasklist >button:hover{
+  background-color:crimson
+}
+
+.tasklist> div>p{
+ font-size: 1rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error-msg{
+  color: red;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 8px;
+}
