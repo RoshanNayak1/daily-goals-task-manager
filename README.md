@@ -10,20 +10,7 @@ A simple task manager app built using React that allows users to add, store, and
 ✔️ Error handling for empty inputs
 ✔️ Responsive design for better user experience
 
-📂 Project Structure
-arduino
-Copy code
-dailytask/
-│── src/
-│   ├── components/
-│   │   ├── Task.js
-│   │   ├── Tasklist.js
-│   ├── styles/
-│   │   ├── Task.css
-│   ├── App.js
-│   ├── index.js
-│── package.json
-│── README.md
+
 🚀 Installation & Setup
 1️⃣ Clone the Repository
 sh
@@ -56,7 +43,7 @@ Command	Description
 npm start	Starts the development server
 npm run build	Builds the app for production
 npm test	Runs tests (if implemented)
-📷 Screenshot
+
 
 🔗 Live Demo
 👉 Daily Goals - Tasks Manager
